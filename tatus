@@ -1,0 +1,17 @@
+[33mcommit e9da53b80da86723f3d8378f63d0301ef350f6cf[m[33m ([m[1;36mHEAD -> [m[1;32mS7N03Ex03[m[33m, [m[1;31morigin/S7N02Ex02[m[33m, [m[1;32mS7N02Ex02[m[33m)[m
+Author: marsalxavi <marsalxavi@gmail.com>
+Date:   Tue Jun 22 18:24:47 2021 +0200
+
+    S7N02Ex02
+
+[33mcommit 6eb13e82ce030ac932f5e03f61bc74bc18265d59[m[33m ([m[1;31morigin/S7N01Ex01[m[33m, [m[1;32mS7N01Ex01[m[33m)[m
+Author: marsalxavi <marsalxavi@gmail.com>
+Date:   Mon Jun 21 12:01:57 2021 +0200
+
+    S7N01Ex01
+
+[33mcommit 791acfbcce7f09204becd786de8891674a57d470[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/dev[m[33m, [m[1;32mmaster[m[33m, [m[1;32mdev[m[33m)[m
+Author: marsalxavi <marsalxavi@gmail.com>
+Date:   Wed Jun 16 12:42:37 2021 +0200
+
+    Initialize project using Create React App
