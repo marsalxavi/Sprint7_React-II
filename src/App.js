@@ -5,6 +5,7 @@ import textosTeatre from "./textosTeatre.json"
 import React from 'react';
 
 import StyledP from "./StyledP.js"
+import { StyledCond, lineStyle } from "./components/MyStyles.js"
 
 class App extends React.Component {
   constructor() {
@@ -33,23 +34,18 @@ class App extends React.Component {
   }
 
   render() {
-    // El text sencer
-    const listTeatre = textosTeatre.map
+    // Escribim el text resaltan linia quan es igual al index
+    const listTeatreCond = textosTeatre.map
       (
-        teatre => <StyledP>{teatre}</StyledP>
-      )
-    // nomes una linia
-    const liniaTeatre =
-      (
-        <StyledP>{textosTeatre[this.state.numLinia - 1]}</StyledP>
+        (teatre, index) => <p style={lineStyle(index + 1, this.state.numLinia)}>{index + 1} - {teatre}</p>
       )
 
     return (
       <div>
         <button type="submit" onClick={this.lineDown} class="btn btn-primary">Linia Anterior</button>
         <button type="submit" onClick={this.lineUp} class="btn btn-success">Linia Següent</button>
-        <p>Numero de línia: {this.state.numLinia}</p>
-        {liniaTeatre}
+        <StyledCond>Numero de línia: {this.state.numLinia}</StyledCond>
+        {listTeatreCond}
       </div >
     )
   }
